@@ -4,7 +4,7 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   
     /* Visual */
-    background-image: url("../imgs/ignasi_pattern_s.png");
+    background-image: url("../imgs/milky-way.jpg");
   }
   
   html {
@@ -153,13 +153,22 @@ body {
     margin: 20px auto;
   }
 
-  .portfolio-img-link {
+  .port-img-link {
     position: absolute;
     bottom: 40px;
-    background-color: pink;
+    background-color: #4aaaa5;
     width: 100%;
     text-align: center;
-    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .port-img-link:hover {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
   }
   /* END PORTFOLIO PAGE */
   
