@@ -219,5 +219,14 @@ body {
   .submit-btn:hover {
     opacity: .7;
   }
+
+  .card {
+    margin-left: 0;
+    border: none;
+  }
+
+  .card-body {
+    padding: 0;
+  }
   
   /* END CONTACT FORM PAGE */
